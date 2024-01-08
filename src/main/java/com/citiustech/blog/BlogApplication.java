@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BlogApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BlogApplication.class, args);
+		System.out.println("Working on Main File from 3:31Pm");
+
+        SpringApplication.run(BlogApplication.class, args);
 	}
 
 }
